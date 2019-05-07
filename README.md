@@ -10,7 +10,7 @@
 ## Install
 
 ```sh
-yarn add -D @nutshelllab/webpack-hooks-shellscripts
+yarn add -D webpack-hooks-shellscripts
 ```
 
 ## Usage
@@ -19,6 +19,8 @@ Add the plugin to your webpack config.
 
 ```js
 // webpack.config.js
+const hooksScriptPlugin = require('webpack-hooks-shellscripts').default
+
 module.exports = {
   plugins: [
     hooksScriptPlugin({
