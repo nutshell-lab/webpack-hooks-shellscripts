@@ -1650,9 +1650,9 @@ eslint-plugin-unicorn@^7.0.0:
     safe-regex "^2.0.1"
 
 eslint-rule-docs@^1.1.5:
-  version "1.1.105"
-  resolved "https://registry.yarnpkg.com/eslint-rule-docs/-/eslint-rule-docs-1.1.105.tgz#72f37b9e2a28df2bf78d2bc395475d40b9bb3ee4"
-  integrity sha512-62+4LJ4Gu1QFf3AwYm7GXRebr0d+w7YspaPzGS8gjEH0EbLmjsUzfdwuAU0Xjs1Vt0xXUanMeXT2wO8u1MQauw==
+  version "1.1.106"
+  resolved "https://registry.yarnpkg.com/eslint-rule-docs/-/eslint-rule-docs-1.1.106.tgz#139f2130e79bb86e425dca5445e8156bfc74718f"
+  integrity sha512-4PZeM++PeRUz1EMMY8hN3a4jvepZIU7tfC/NHc96Jb308HIJDXykIUIUZEFCG45otzrACh+qF3jo6zWlJJCe0w==
 
 eslint-scope@^4.0.3:
   version "4.0.3"

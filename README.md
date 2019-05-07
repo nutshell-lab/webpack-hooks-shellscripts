@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/nutshell-lab/webpack-hooks-shellscripts.svg?branch=master)](https://travis-ci.org/nutshell-lab/webpack-hooks-shellscripts)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3a0e1bb6be50fc9c0d47/maintainability)](https://codeclimate.com/github/nutshell-lab/webpack-hooks-shellscripts/maintainability)
-[![NPM bundle size](https://img.shields.io/bundlephobia/min/@nutshelllab/webpack-hooks-shellscripts.svg)](http://bundlephobia.com/result?p=@nutshelllab/webpack-hooks-shellscripts@1.0.0)
+[![NPM version](https://badgen.net/npm/v/webpack-hooks-shellscripts)](https://www.npmjs.com/package/webpack-hooks-shellscripts)
+[![NPM bundle size](https://badgen.net/bundlephobia/min/webpack-hooks-shellscripts)](https://bundlephobia.com/result?p=webpack-hooks-shellscripts)
 
 > Just triggers some shellscripts on webpack compiler hooks.
 
