@@ -1,6 +1,6 @@
 {
   "name": "webpack-hooks-shellscripts",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Just triggers some shellscripts on webpack compiler hooks.",
   "main": "src/index.js",
   "repository": "git@github.com:nutshell-lab/webpack-hooks-shellscripts.git",
