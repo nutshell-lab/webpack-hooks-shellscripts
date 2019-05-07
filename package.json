@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Just triggers some shellscripts on webpack compiler hooks.",
   "main": "src/index.js",
-  "repository": "git@github.com:nutshell-lab/webpack-hooks-shellscripts.git",
+  "repository": "https://github.com/nutshell-lab/webpack-hooks-shellscripts",
   "author": "Victor Rebiard--Crépin <victor.rebiardcrepin@gmail.com>",
   "license": "MIT",
   "private": false,
