@@ -1,60 +1,59 @@
 {
- "name": "webpack-hooks-shellscripts",
- "version": "1.0.0",
- "description": "Just triggers some shellscripts on webpack compiler hooks.",
- "main": "src/index.js",
- "repository": "git@github.com:nutshell-lab/webpack-hooks-shellscripts.git",
- "author": "Victor Rebiard--Crépin <victor.rebiardcrepin@gmail.com>",
- "license": "MIT",
- "private": false,
- "scripts": {
-  "test": "xo",
-  "build": "pack build",
-  "release": "pack publish"
- },
- "dependencies": {
-  "execa": "^1.0.0",
-  "p-map-series": "^2.1.0"
- },
- "devDependencies": {
-  "@babel/register": "^7.4.4",
-  "@pika/pack": "^0.3.7",
-  "@pika/plugin-build-node": "^0.3.16",
-  "@pika/plugin-build-types": "^0.3.16",
-  "@pika/plugin-copy-assets": "^0.3.16",
-  "@pika/plugin-standard-pkg": "^0.3.16",
-  "eslint-config-prettier": "^4.2.0",
-  "eslint-config-prettier-standard": "^2.0.0",
-  "eslint-config-standard": "^12.0.0",
-  "eslint-plugin-prettier": "^3.0.1",
-  "eslint-plugin-standard": "^4.0.0",
-  "xo": "^0.24.0"
- },
- "xo": {
-  "env": "node",
-  "space": true,
-  "semicolon": false,
-  "extends": "prettier-standard"
- },
- "@pika/pack": {
-  "pipeline": [
-   [
-    "@pika/plugin-standard-pkg"
-   ],
-   [
-    "@pika/plugin-build-node"
-   ],
-   [
-    "@pika/plugin-build-types"
-   ],
-   [
-    "@pika/plugin-copy-assets",
-    {
-     "files": [
-      "README.md"
-     ]
-    }
-   ]
-  ]
- }
+  "name": "webpack-hooks-shellscripts",
+  "version": "1.0.0",
+  "description": "Just triggers some shellscripts on webpack compiler hooks.",
+  "main": "src/index.js",
+  "repository": "git@github.com:nutshell-lab/webpack-hooks-shellscripts.git",
+  "author": "Victor Rebiard--Crépin <victor.rebiardcrepin@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": { "access": "public" },
+  "keywords": ["webpack", "hook", "shell"],
+  "engines": { "node": ">=8.9.0" },
+  "scripts": {
+    "test": "xo",
+    "build": "pack build",
+    "release": "pack publish"
+  },
+  "dependencies": {
+    "execa": "^1.0.0",
+    "p-map-series": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.4.4",
+    "@pika/pack": "^0.3.7",
+    "@pika/plugin-build-node": "^0.3.16",
+    "@pika/plugin-build-types": "^0.3.16",
+    "@pika/plugin-copy-assets": "^0.3.16",
+    "@pika/plugin-standard-pkg": "^0.3.16",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-config-prettier-standard": "^2.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "env": "node",
+    "space": true,
+    "semicolon": false,
+    "extends": "prettier-standard"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-node"
+      ],
+      [
+        "@pika/plugin-build-types"
+      ],
+      [
+        "@pika/plugin-copy-assets",
+        { "files": ["README.md"] }
+      ]
+    ]
+  }
 }
