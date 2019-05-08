@@ -1,1 +1,3 @@
-export default function plugin(scripts: object): void
+declare function hooksShellScriptsPlugin(scripts: object): void
+
+export = hooksShellScriptsPlugin

@@ -19,7 +19,7 @@ Add the plugin to your webpack config.
 
 ```js
 // webpack.config.js
-const hooksScriptPlugin = require('webpack-hooks-shellscripts').default
+const hooksScriptPlugin = require('webpack-hooks-shellscripts')
 
 module.exports = {
   plugins: [

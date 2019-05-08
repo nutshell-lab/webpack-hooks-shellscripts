@@ -1,5 +1,5 @@
-import execa from 'execa'
-import pMapSeries from 'p-map-series'
+const execa = require('execa')
+const pMapSeries = require('p-map-series')
 
 const PLUGIN_NAME = 'HooksShellScriptsPlugin'
 
@@ -30,6 +30,8 @@ const registerHook = compiler => ([hook, scripts]) =>
  *  }
  * ```
  */
-export default (scripts = {}) => ({
+const hooksShellScriptsPlugin = (scripts = {}) => ({
   apply: compiler => Object.entries(scripts).map(registerHook(compiler))
 })
+
+module.exports = hooksShellScriptsPlugin
